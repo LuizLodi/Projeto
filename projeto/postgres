@@ -1,0 +1,11 @@
+CREATE TABLE cliente (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);
+
+CREATE TABLE produto (
+    id SERIAL PRIMARY KEY,
+    nome_produto VARCHAR(100),
+    preco NUMERIC(10,2)
+);
